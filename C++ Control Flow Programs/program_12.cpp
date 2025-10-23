@@ -4,7 +4,7 @@
 using namespace std;
 
 bool isPrime (int num) {
-    if (num < 2) 
+    if (num <= 1) 
     {
         return false;
     }
@@ -32,5 +32,4 @@ int main () {
         cout << "Not Prime" << endl;
     }
     return 0;
-
 }
